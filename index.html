@@ -1,0 +1,34 @@
+<DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+<h1>Sum af tal fra 1 til n</h1>
+
+<lable>Indtast et positivt heltal</lable><br>
+<input type="text" id="nInput" placeholder="Positivt heltal"><br>
+<button type="button" onclick="beregnSum();">Beregn Summen</button>
+
+<p id="resultat">Her kommer resultatet til at stå</p>
+
+<!-- Herunder ser du koden til selve beregningen af summen fra 1 til n -->
+<script>
+    function beregnSum() {
+      var inputVal = document.getElementById("nInput").value;
+      var sum = 0;
+      var x = 3;
+	var y = 5
+        for (i = 0; i <= inputVal; i++) {
+         if i%x = 0 {
+	   sum = sum + i;
+	} if (i%y = 0 {
+	   sum = sum + i;
+	}
+      }
+      document.getElementById("resultat").innerHTML = sum;
+    }
+ </script>
+
+ </body>
+ </html>
