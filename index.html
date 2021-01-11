@@ -17,15 +17,12 @@
     function beregnSum() {
       var inputVal = document.getElementById("nInput").value;
       var sum = 0;
-      var x = 3;
-	var y = 5
-        for (i = 0; i <= inputVal; i++) {
-         if i%x = 0 {
-	   sum = sum + i;
-	} if (i%y = 0 {
-	   sum = sum + i;
+      for (i = 0; i <= inputVal; i++) {
+         if ((i % 3 == 0)||(i % 5 == 0))
+         {
+	         sum = sum + i;
+	  }
 	}
-      }
       document.getElementById("resultat").innerHTML = sum;
     }
  </script>
