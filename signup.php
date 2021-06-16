@@ -27,7 +27,7 @@
                 echo '<p class="signuperror">Brugernavnet er allerede i brug!</p>';
               }
             }
-            else if($_GET["signup"] == "success") {
+            else if ($_GET["signup"] == "success") {
               echo '<p class="signupsuccess">Bruger oprettet!</p>';
             }
           ?>
