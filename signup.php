@@ -7,27 +7,27 @@
         <section class="section-default">
           <h1>Signup</h1>
           <?php
-            if (isset($_GET['error'])) {
-              if ($_GET['error'] == "emptyfields") {
+            if (isset($_GET["error"])) {
+              if ($_GET["error"] == "emptyfields") {
                 echo '<p class="signuperror">Fyld ind alle felter!</p>';
               }
-              else if ($_GET['error'] == "invaliduidmail") {
+              else if ($_GET["error"] == "invaliduidmail") {
                 echo '<p class="signuperror">Invalid Brugernavn og E-mail!</p>';
               }
-              else if ($_GET['error'] == "invaliduid") {
+              else if ($_GET["error"] == "invaliduid") {
                 echo '<p class="signuperror">Invalid Brugernavn!</p>';
               }
-              else if ($_GET['error'] == "invalidmail") {
+              else if ($_GET["error"] == "invalidmail") {
                 echo '<p class="signuperror">Invalid E-mail!</p>';
               }
-              else if ($_GET['error'] == "passwordcheck") {
+              else if ($_GET["error"] == "passwordcheck") {
                 echo '<p class="signuperror">Din adgangskode stemmer ikke!</p>';
               }
-              else if ($_GET['error'] == "usertaken") {
+              else if ($_GET["error"] == "usertaken") {
                 echo '<p class="signuperror">Brugernavnet er allerede i brug!</p>';
               }
             }
-            else if($_GET['signup'] == "success") {
+            else if($_GET["signup"] == "success") {
               echo '<p class="signupsuccess">Bruger oprettet!</p>';
             }
           ?>
