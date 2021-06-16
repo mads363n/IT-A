@@ -17,6 +17,11 @@
         <a class="header-logo" href="index.php"
           <img src="img/logo.png" alt="mmtuts logo"
         </a>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="#">Leaderboard</a></li>
+          <li><a href="#">Achievements</a></li>
+          <li><a href="#"></a></li>
       </nav>
       <div class="header-login">
         <?php
